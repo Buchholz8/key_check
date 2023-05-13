@@ -39,7 +39,7 @@ CREATE TABLE `movie` (
 
 LOCK TABLES `movie` WRITE;
 /*!40000 ALTER TABLE `movie` DISABLE KEYS */;
-INSERT INTO `movie` VALUES (1,'land before time',2,'some dude','2001-03-08'),(7,'jurrasic park',180,'another guy','2004-12-03'),(8,'jurrasic world',200,'probably same guy','2018-02-28');
+INSERT INTO `movie` VALUES (1,'land before time',130,'some dude','2001-03-08'),(7,'jurrasic park',180,'another guy','2004-12-03'),(8,'jurrasic world',200,'probably same guy','2018-02-28');
 /*!40000 ALTER TABLE `movie` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -56,4 +56,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-05-13 14:36:09
+-- Dump completed on 2023-05-13 14:57:47
